@@ -1,3 +1,4 @@
 # Compiled Object files
+bdt.txt    text merge=union eol=crlf
 t_dos.txt    text merge=union eol=crlf
 bdt.bdt    text merge=union eol=crlf
