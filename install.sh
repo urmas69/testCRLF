@@ -12,6 +12,10 @@ echo  "Install node ? $install_node_yes"
 
 
 su - red <<EOSU
+cd
+pwd
+whoami
+echo
 
     echo -n "Git User Name:"
     read gitlogin
