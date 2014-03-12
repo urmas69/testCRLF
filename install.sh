@@ -11,7 +11,8 @@ read -r -n1 -p "Install node ? [y/N]" install_node_yes
 echo  "Install node ? $install_node_yes"
 
 
-su red -c source<(EOSU
+su red -c source<(
+<<EOSU
 cd
 pwd
 whoami
@@ -23,7 +24,8 @@ echo
     read gitpassword
 
 
-EOSU)
+EOSU
+)
 
 
 
