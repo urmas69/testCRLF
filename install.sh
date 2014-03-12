@@ -11,7 +11,7 @@ read -r -n1 -p "Install node ? [y/N]" install_node_yes
 echo  "Install node ? $install_node_yes"
 
 
-source <<EOSU
+su red <<EOSU
 cd
 pwd
 whoami
