@@ -15,7 +15,7 @@ read -r -n1 -p "Install node ? [y/N]" install_node_yes
 
 echo  "Install node ? $install_node_yes"
 
-run 'ls -la /etc'
+run "ls -la /etc"
 
 su red <<EOSU
 cd
