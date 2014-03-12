@@ -6,7 +6,7 @@ REDIS_VERSION=2.8.7
 
 myrun(){
   echo "run:"
-  echo "$0"
+  $1
 }
 
 CORES=`grep -c processor /proc/cpuinfo`
